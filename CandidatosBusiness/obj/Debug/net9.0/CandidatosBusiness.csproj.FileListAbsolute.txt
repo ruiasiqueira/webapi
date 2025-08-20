@@ -1,0 +1,6 @@
+C:\Users\labsfiap\Desktop\webapi\CandidatosBusiness\obj\Debug\net9.0\CandidatosBusiness.csproj.AssemblyReference.cache
+C:\Users\labsfiap\Desktop\webapi\CandidatosBusiness\obj\Debug\net9.0\CandidatosBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labsfiap\Desktop\webapi\CandidatosBusiness\obj\Debug\net9.0\CandidatosBusiness.AssemblyInfoInputs.cache
+C:\Users\labsfiap\Desktop\webapi\CandidatosBusiness\obj\Debug\net9.0\CandidatosBusiness.AssemblyInfo.cs
+C:\Users\labsfiap\Desktop\webapi\CandidatosBusiness\obj\Debug\net9.0\CandidatosBusiness.csproj.CoreCompileInputs.cache
+C:\Users\labsfiap\Desktop\webapi\CandidatosBusiness\obj\Debug\net9.0\CandidatosBusiness.sourcelink.json

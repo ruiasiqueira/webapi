@@ -3,22 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
  
 namespace CandidatosBusiness;
-public class CandidatoService
+public class CandidatosService
 {
-    private static readonly List<CandidatoModel> _candidatos = new();
+    private static readonly List<CandidatosModel> _candidatos = new();
     private static int _nextId = 1;
  
-    public List<CandidatoModel> ListarTodos() => _candidatos;
-    public CandidatoModel? ObterPorId(int id) => _candidatos.FirstOrDefault(c => c.Id == id);
+    public List<CandidatosModel> ListarTodos() => _candidatos;
+    public CandidatosModel? ObterPorId(int id) => _candidatos.FirstOrDefault(c => c.Id == id);
  
-    public CandidatoModel Criar(CandidatoModel candidato)
-    {
+    public CandidatosModel Criar(CandidatosModel candidato){
         candidato.Id = _nextId++;
         _candidatos.Add(candidato);
         return candidato;
     }
-    public bool Atualizar(CandidatoModel candidato)
-    {
+
+    public bool Atualizar(CandidatosModel candidato){
         var existente = ObterPorId(candidato.Id);
         if (existente == null) return false;
         existente.Nome = candidato.Nome;

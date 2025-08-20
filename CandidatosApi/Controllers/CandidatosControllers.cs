@@ -26,7 +26,7 @@ public class CandidatosController
     }
  
     [HttpPost]
-    public IActionResult Post([FromBody] CandidatoModel candidato)
+    public IActionResult Post([FromBody] CandidatosModel candidato)
     {
         if (string.IsNullOrWhiteSpace(candidato.Nome))
             return BadRequest("Nome é obrigatório.");
@@ -35,7 +35,7 @@ public class CandidatosController
     }
  
     [HttpPut("{id}")]
-    public IActionResult Put(int id, [FromBody] CandidatoModel candidato)
+    public IActionResult Put(int id, [FromBody] CandidatosModel candidato)
     {
         if (candidato == null || candidato.Id != id)
             return BadRequest("Dados inconsistentes.");

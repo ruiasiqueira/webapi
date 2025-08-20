@@ -33,6 +33,29 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "CandidatosBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CandidatosModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CandidatosBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CandidatosBusiness.dll": {}
+        }
+      },
+      "CandidatosModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CandidatosModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CandidatosModel.dll": {}
+        }
       }
     }
   },
@@ -67,10 +90,22 @@
         "microsoft.openapi.1.6.17.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "CandidatosBusiness/1.0.0": {
+      "type": "project",
+      "path": "../CandidatosBusiness/CandidatosBusiness.csproj",
+      "msbuildProject": "../CandidatosBusiness/CandidatosBusiness.csproj"
+    },
+    "CandidatosModel/1.0.0": {
+      "type": "project",
+      "path": "../CandidatosModel/CandidatosModel.csproj",
+      "msbuildProject": "../CandidatosModel/CandidatosModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "CandidatosBusiness >= 1.0.0",
+      "CandidatosModel >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.5"
     ]
   },
@@ -106,7 +141,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\labsfiap\\Desktop\\webapi\\CandidatosBusiness\\CandidatosBusiness.csproj": {
+              "projectPath": "C:\\Users\\labsfiap\\Desktop\\webapi\\CandidatosBusiness\\CandidatosBusiness.csproj"
+            },
+            "C:\\Users\\labsfiap\\Desktop\\webapi\\CandidatosModel\\CandidatosModel.csproj": {
+              "projectPath": "C:\\Users\\labsfiap\\Desktop\\webapi\\CandidatosModel\\CandidatosModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

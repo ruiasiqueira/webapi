@@ -1,0 +1,12 @@
+C:\Users\labsfiap\Desktop\webapi\CandidatosModel\bin\Debug\net9.0\CandidatosModel.deps.json
+C:\Users\labsfiap\Desktop\webapi\CandidatosModel\bin\Debug\net9.0\CandidatosModel.dll
+C:\Users\labsfiap\Desktop\webapi\CandidatosModel\bin\Debug\net9.0\CandidatosModel.pdb
+C:\Users\labsfiap\Desktop\webapi\CandidatosModel\obj\Debug\net9.0\CandidatosModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labsfiap\Desktop\webapi\CandidatosModel\obj\Debug\net9.0\CandidatosModel.AssemblyInfoInputs.cache
+C:\Users\labsfiap\Desktop\webapi\CandidatosModel\obj\Debug\net9.0\CandidatosModel.AssemblyInfo.cs
+C:\Users\labsfiap\Desktop\webapi\CandidatosModel\obj\Debug\net9.0\CandidatosModel.csproj.CoreCompileInputs.cache
+C:\Users\labsfiap\Desktop\webapi\CandidatosModel\obj\Debug\net9.0\CandidatosModel.sourcelink.json
+C:\Users\labsfiap\Desktop\webapi\CandidatosModel\obj\Debug\net9.0\CandidatosModel.dll
+C:\Users\labsfiap\Desktop\webapi\CandidatosModel\obj\Debug\net9.0\refint\CandidatosModel.dll
+C:\Users\labsfiap\Desktop\webapi\CandidatosModel\obj\Debug\net9.0\CandidatosModel.pdb
+C:\Users\labsfiap\Desktop\webapi\CandidatosModel\obj\Debug\net9.0\ref\CandidatosModel.dll
